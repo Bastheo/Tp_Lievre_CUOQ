@@ -31,7 +31,7 @@ public:
 class Lievre: public Animal
 {
 private:
-    int vitesse = 5;
+    int vitesse = 8;
 
 public:
     Lievre(QLabel *label);

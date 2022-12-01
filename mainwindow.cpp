@@ -12,8 +12,8 @@ MainWindow::MainWindow(QWidget *parent)
     tab[0] = new Lievre(ui->Lapin);
     tab[1] = new Tortue(ui->Tortue);
 
-    ui->Lapin->setPixmap(QPixmap(":images/Lapin.jpg").scaledToWidth(200));
-    ui->Tortue->setPixmap(QPixmap(":images/Tortue.jpg").scaledToWidth(200));
+    ui->Lapin->setPixmap(QPixmap(":images/Matthieu.png").scaledToWidth(200));
+    ui->Tortue->setPixmap(QPixmap(":images/Mino.png").scaledToWidth(200));
 
     startTimer(50);
 }
